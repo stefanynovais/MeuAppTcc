@@ -20,21 +20,17 @@ Inclui também uma **Splash Screen animada** para deixar o app mais bonito 💖.
 
 ## 🌼 Como rodar o projeto
 ```bash
-# Clone este repositório
 git clone https: [//github.com/seuusuario/nome-do-repo.git](https://github.com/stefanynovais/MeuAppTcc.git)]
-```
+  ```
 
 ```bash
-# Acesse a pasta
 cd nome-do-repo
-```
+  ```
 
 ```bash
-# Instale as dependências
 npm install
-```
+  ```
 
 ```bash
-# Execute no Expo
 npm start
-```
+  ```
