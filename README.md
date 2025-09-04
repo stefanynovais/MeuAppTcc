@@ -18,19 +18,20 @@ Inclui também uma **Splash Screen animada** para deixar o app mais bonito 💖.
 
 ---
 
-## 🌼 Como rodar o projeto
+## 🛠 Como rodar o projeto
+1️⃣ Clone este repositório
 ```bash
 git clone https: [//github.com/seuusuario/nome-do-repo.git](https://github.com/stefanynovais/MeuAppTcc.git)]
   ```
-
+2️⃣ Acesse a pasta
 ```bash
 cd nome-do-repo
   ```
-
+3️⃣ Instale as dependências
 ```bash
 npm install
   ```
-
+4️⃣Para executar no ExpoGo
 ```bash
 npm start
   ```
