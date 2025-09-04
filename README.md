@@ -1,4 +1,4 @@
-# 🌷 APP em React Native
+# 🌷 APP usando FlatList em React Native
 
 ✨ Projeto desenvolvido em **React Native** com foco no uso dos componentes **FlatList** e **Modal**.  
 Inclui também uma **Splash Screen animada** para deixar o app mais bonito 💖.
@@ -8,7 +8,7 @@ Inclui também uma **Splash Screen animada** para deixar o app mais bonito 💖.
 ## 📱 Funcionalidades
 - Exibe uma lista (usando FlatList).
 - Possui uma **Splash Screen com degradê**.
-- Design .
+- Estilização:  .
 
 ---
 
