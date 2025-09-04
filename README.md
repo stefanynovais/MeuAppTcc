@@ -36,7 +36,5 @@ npm install
 npm start
   ```
 
-```markdown
----
 
-✨ Feito por Ana Júlia, Luana Gabriella e Stefany Novais
+#✨ Feito por Ana Júlia, Luana Gabriella e Stefany Novais
