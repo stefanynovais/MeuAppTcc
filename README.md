@@ -22,19 +22,19 @@ Inclui também uma **Splash Screen animada** para deixar o app mais bonito 💖.
 ```bash
 # Clone este repositório
 git clone https: [//github.com/seuusuario/nome-do-repo.git](https://github.com/stefanynovais/MeuAppTcc.git)]
-```bash
+```
 
 ```bash
 # Acesse a pasta
 cd nome-do-repo
-```bash
+```
 
 ```bash
 # Instale as dependências
 npm install
-```bash
+```
 
 ```bash
 # Execute no Expo
 npm start
-```bash
+```
