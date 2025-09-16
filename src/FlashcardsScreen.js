@@ -6,7 +6,7 @@ export default function FlashcardsScreen({ route }) {
   const { deck } = route.params; //pega o deck passado como parâmetro na navegação
 
   return (
-    <View style={styles.container}>
+
         <LinearGradient colors={['#200144', '#542BD7']} style={styles.container}>
             <Text style={styles.title}>Deck {deck.titulo}</Text>
             <Text style={styles.subtitle}>{deck.idioma}</Text>
@@ -31,7 +31,7 @@ export default function FlashcardsScreen({ route }) {
             </TouchableOpacity>
 
         </LinearGradient>
-    </View>
+   
   );
 }
 
