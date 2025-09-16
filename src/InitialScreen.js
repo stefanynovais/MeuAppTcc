@@ -3,12 +3,12 @@ import { StyleSheet, Text, View, FlatList, Image } from "react-native";
 
 //array com os itens
 const decks = [
-  { id: "1", titulo: "Verdadeiro ou falso", cards: "4" },
-  { id: "2", titulo: "Relacionar palavra à imagem", cards: "4" },
-  { id: "3", titulo: "Verbos", cards: "4" },
+  { id: "1", titulo: "Verdadeiro ou falso", idioma: "francês", cards: "4", revisoes: "10", acertos: "80%", palavrasRever: "20" },
+  { id: "2", titulo: "Relacionar palavra à imagem", idioma:"inglês", cards: "4", revisoes: "15", acertos: "90%", palavrasRever: "20" },
+  { id: "3", titulo: "Verbos", idioma: "grego", cards: "4", revisoes: "7", acertos: "70%", palavrasRever: "20" },
 ];
 
-export default function InitialScreen() {
+export default function InitialScreen({navigation}) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Escolha um deck para começar sua jornada de aprendizado:</Text>
@@ -20,8 +20,8 @@ export default function InitialScreen() {
         renderItem={({ item }) => ( //define como cada item deverá ser exibido
           <TouchableOpacity
             style={styles.item}
-            onPress={() => navigation.navigate("FlashcardsScreen", { deckId: item.id })} //envia o usuário à tela de flashcards, passando o deckId.
-            //na tela de flashcards, o deckId carrega os cards corretos de acordo com a escolha de deck do usuário
+            onPress={() => navigation.navigate("FlashcardsScreen", { deck: item })} // passa o deck como paramêtro para a tela de flashcards
+            //na tela de flashcards, podemos acessar esse parâmetro via route.params.deck
           >
             <Text style={styles.text}>{item.titulo}</Text>
             <Text style={styles.text}>Cards: {item.cards}</Text>
