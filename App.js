@@ -11,7 +11,8 @@ export default function App() {
    <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="SplashScreen" component={SplashScreen} />
-          <Stack.Screen name="InitialScreen" component={InitialScreen} />
+        <Stack.Screen name="InitialScreen" component={InitialScreen} />
+        <Stack.Screen name="FlashcardsScreen" component={FlashcardsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
