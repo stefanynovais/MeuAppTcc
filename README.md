@@ -38,5 +38,3 @@ npm start
 
 
 ## ✨ Feito por Ana Júlia, Luana Gabriella e Stefany Novais
-
-https://www.figma.com/design/cY6GDGX0ZQ2H3x39hfNdVT/telas-TCC-PAM?node-id=0-1&t=78EHJyHPyEGC1N4k-1
