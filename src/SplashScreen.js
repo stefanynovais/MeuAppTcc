@@ -14,7 +14,7 @@ const SplashScreen = ({ navigation }) => {
 
     return (
           <LinearGradient //funciona como um container, como a view
-            colors={["#a4508b", "#5f0a87"]} // cores do degradê
+            colors={["#2c004d", "#6a11cb"]} // cores do degradê
             style={styles.container}
         >
             <Text style={styles.logo}>TCC</Text>

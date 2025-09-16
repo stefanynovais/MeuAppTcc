@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, FlatList, Image, TouchableOpacity } from "react-native";
+import { LinearGradient } from "expo-linear-gradient"; 
 
 //array com os itens
 const decks = [
@@ -9,8 +10,12 @@ const decks = [
 ];
 
 export default function InitialScreen() {
+
   return (
-    <View style={styles.container}>
+     <LinearGradient
+      colors={["#1a0033", "#6600cc", "#cc00ff"]} 
+      style={styles.container}
+    >
       <Text style={styles.title}>Escolha um deck para começar sua jornada de aprendizado:</Text>
 
 
@@ -31,7 +36,7 @@ export default function InitialScreen() {
           </TouchableOpacity>
         )}
       />
-    </View>
+       </LinearGradient>
   );
 }
 
