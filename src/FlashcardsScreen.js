@@ -8,13 +8,28 @@ export default function FlashcardsScreen({ route }) {
   return (
     <View style={styles.container}>
         <LinearGradient colors={['#200144', '#542BD7']} style={styles.container}>
-            <Text style={styles.title}>{deck.titulo}</Text>
-            <Text style={styles.subtitle}>Idioma: {deck.idioma}</Text>
+            <Text style={styles.title}>Deck {deck.titulo}</Text>
+            <Text style={styles.subtitle}>{deck.idioma}</Text>
 
-            <Text>Nº de cards: {deck.cards}</Text>
-            <Text>Revisões: {deck.revisoes}</Text>
-            <Text>Acertos: {deck.acertos}%</Text>
-            <Text>Palavras para revisar: {deck.palavrasRever}</Text>
+            <View style={styles.statsCard}>
+                <Text style={styles.statsText}>Nº de cards: {deck.cards}</Text>
+                <Text style={styles.statsText}>Revisões: {deck.revisoes}</Text>
+                <Text style={styles.statsText}>Acertos: {deck.acertos}%</Text>
+                <Text style={styles.statsText}>Nº de palavras para revisar: {deck.palavrasRever}</Text>
+            </View>
+
+            <TouchableOpacity 
+                style={[styles.button, { backgroundColor: '#0B66FE' }]}
+            >
+                <Text style={styles.buttonText}>Editar deck</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+                style={[styles.button, { backgroundColor: '#35C763' }]}
+            >
+                <Text style={styles.buttonText}>Revisar cartões</Text>
+            </TouchableOpacity>
+
         </LinearGradient>
 
     </View>
