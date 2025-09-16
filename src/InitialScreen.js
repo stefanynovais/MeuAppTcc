@@ -12,7 +12,7 @@ const decks = [
 export default function InitialScreen({navigation}) {
   return (
      <LinearGradient
-      colors={["#1a0033", "#6600cc", "#cc00ff"]} 
+      colors={['#200144', '#542BD7']} 
       style={styles.container}
     >
       <Text style={styles.title}>Escolha um deck para começar sua jornada de aprendizado:</Text>
