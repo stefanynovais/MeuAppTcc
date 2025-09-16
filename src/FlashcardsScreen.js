@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import LinearGradient from "react-native-linear-gradient";
+import { LinearGradient } from 'expo-linear-gradient';
 
 export default function FlashcardsScreen({ route }) {
   const { deck } = route.params; //pega o deck passado como parâmetro na navegação
@@ -14,7 +14,7 @@ export default function FlashcardsScreen({ route }) {
             <View style={styles.statsCard}>
                 <Text style={styles.statsText}>Nº de cards: {deck.cards}</Text>
                 <Text style={styles.statsText}>Revisões: {deck.revisoes}</Text>
-                <Text style={styles.statsText}>Acertos: {deck.acertos}%</Text>
+                <Text style={styles.statsText}>Acertos: {deck.acertos}</Text>
                 <Text style={styles.statsText}>Nº de palavras para revisar: {deck.palavrasRever}</Text>
             </View>
 
