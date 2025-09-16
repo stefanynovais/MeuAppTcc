@@ -31,7 +31,6 @@ export default function FlashcardsScreen({ route }) {
             </TouchableOpacity>
 
         </LinearGradient>
-
     </View>
   );
 }
