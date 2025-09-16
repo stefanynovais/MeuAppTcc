@@ -14,7 +14,7 @@ Inclui também uma **Splash Screen animada** para deixar o app mais bonito 💖.
 ## 🚀 Tecnologias utilizadas
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/) (para rodar o app)
-- FlatList e Modal (componentes nativos do React Native)
+- FlatList
 
 ---
 
